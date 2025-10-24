@@ -34,41 +34,40 @@ int main(){
     // Torre move 5 casas para a direita
     printf("## Desafio Jogo de Xadrez ##\n");
     printf("\n## Torre move 5 casas para direita ##\n");
-    for(int i = 0; i < 5; i++){
-        printf("Direita.\n");
-     }
-    
+        for(int i = 0; i < 5; i++){
+            printf("Direita.\n");
+        }
+                                     
     // Implementação de Movimentação do Bispo
     // Bispo move 5 casas em diagonal superior para a direita
     printf("\n## Bispo move 5 casas em diagonal superior a direita ##\n");
-    for(int i = 0; i < 10; i++){
-        if(i % 2 == 0){
+        for(int i = 0; i < 10; i++){
+            if(i % 2 == 0){
             printf("Cima - ");
-        } else if(i % 2 !=0){
+            } else if(i % 2 !=0){
             printf("Direita.\n");
+            }
         }
-    }
 
     // Implementação de Movimentação da Rainha
     // Rainha move 8 casas para a esquerda
     printf("\n## Rainha move 8 casas para esquerda ##\n");
-    for(int i = 0; i < 8; i++){
-        printf("Esquerda.\n");
-     }
-
+        for(int i = 0; i < 8; i++){
+            printf("Esquerda.\n");
+        }
     // Implementação de Movimentação do Cavalo
     // Cavalo move 2 casas para baixo e 1 para a esquerda
     printf("\n## Cavalo move 2 casas para baixo e 1 para esquerda ##\n");
     int movimentol = 1;
-    
-    while (movimentol--){
-        for(int i = 0; i < 2; i++){
-            printf("Baixo - ");
-    }
-    printf("Esquerda.\n");
-   }
+                                                                                                                                                          
+        while (movimentol--){
+            for(int i = 0; i < 2; i++){
+                printf("Baixo - ");
+            }
+        printf("Esquerda.\n");
+        }
 
 
 
-    return 0;
+return 0;
 }
